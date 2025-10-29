@@ -5,10 +5,10 @@ This is **Challenge 4** in the NBA PSA Card Analyzer series. This iteration enha
 > Built with **Next.js**, **TypeScript**, **Tailwind**, and powered by **Google Gemini**, **CLIP**, and **Pg-vector**.
 
 Add card:
-![App Screenshot](./public/landing.png)
+![App Screenshot](/landing.png)
 
 Synthetic Card Generation and Audio Narration:
-![Search Screenshot](./public/synth-gen.png)
+![Search Screenshot](/synth-gen.png)
 
 
 ## 🚀 What's new in Challenge 4
