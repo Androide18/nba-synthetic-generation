@@ -1,0 +1,50 @@
+{
+  "name": "ai-nba-card-synthetic-generation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "langgraph": "langgraph dev"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^2.0.17",
+    "@ai-sdk/openai": "^2.0.53",
+    "@ai-sdk/react": "^2.0.60",
+    "@ai-sdk/vercel": "^1.0.20",
+    "@google/genai": "^1.26.0",
+    "@google/generative-ai": "^0.24.1",
+    "@huggingface/transformers": "^3.7.5",
+    "@langchain/community": "^0.3.57",
+    "@langchain/core": "^0.3.78",
+    "@langchain/langgraph": "^0.4.9",
+    "@langchain/openai": "^0.6.16",
+    "ai": "^5.0.56",
+    "class-variance-authority": "^0.7.1",
+    "langsmith": "^0.3.74",
+    "lucide-react": "^0.544.0",
+    "next": "15.5.4",
+    "pg": "^8.16.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-feather": "^2.0.10",
+    "tailwind-merge": "^3.3.1",
+    "wav": "^1.0.2",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@langchain/langgraph-cli": "^0.0.71",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/pg": "^8.15.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
